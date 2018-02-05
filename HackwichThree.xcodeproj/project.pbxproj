@@ -14,6 +14,7 @@
 		7FEB772C2028EAA8004142AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEB772A2028EAA8004142AC /* LaunchScreen.storyboard */; };
 		7FEB77372028EAA8004142AC /* HackwichThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEB77362028EAA8004142AC /* HackwichThreeTests.swift */; };
 		7FEB77422028EAA8004142AC /* HackwichThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEB77412028EAA8004142AC /* HackwichThreeUITests.swift */; };
+		7FEB77502028F25B004142AC /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEB774F2028F25B004142AC /* ViewControllerTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7FEB773D2028EAA8004142AC /* HackwichThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FEB77412028EAA8004142AC /* HackwichThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichThreeUITests.swift; sourceTree = "<group>"; };
 		7FEB77432028EAA8004142AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FEB774F2028F25B004142AC /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				7FEB77212028EAA7004142AC /* AppDelegate.swift */,
 				7FEB77232028EAA7004142AC /* ViewController.swift */,
 				7FEB77252028EAA8004142AC /* Main.storyboard */,
+				7FEB774F2028F25B004142AC /* ViewControllerTwo.swift */,
 				7FEB77282028EAA8004142AC /* Assets.xcassets */,
 				7FEB772A2028EAA8004142AC /* LaunchScreen.storyboard */,
 				7FEB772D2028EAA8004142AC /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				7FEB77242028EAA7004142AC /* ViewController.swift in Sources */,
 				7FEB77222028EAA7004142AC /* AppDelegate.swift in Sources */,
+				7FEB77502028F25B004142AC /* ViewControllerTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
