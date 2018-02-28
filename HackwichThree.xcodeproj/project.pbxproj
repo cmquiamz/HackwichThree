@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FE0CBEB20463ED000F169FB /* SecondViewContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE0CBEA20463ED000F169FB /* SecondViewContrller.swift */; };
 		7FEB77222028EAA7004142AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEB77212028EAA7004142AC /* AppDelegate.swift */; };
 		7FEB77242028EAA7004142AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEB77232028EAA7004142AC /* ViewController.swift */; };
 		7FEB77272028EAA8004142AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEB77252028EAA8004142AC /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7FE0CBEA20463ED000F169FB /* SecondViewContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewContrller.swift; sourceTree = "<group>"; };
 		7FEB771E2028EAA7004142AC /* HackwichThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwichThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FEB77212028EAA7004142AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FEB77232028EAA7004142AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				7FEB77212028EAA7004142AC /* AppDelegate.swift */,
 				7FEB77232028EAA7004142AC /* ViewController.swift */,
 				7FEB77252028EAA8004142AC /* Main.storyboard */,
+				7FE0CBEA20463ED000F169FB /* SecondViewContrller.swift */,
 				7FEB774F2028F25B004142AC /* ViewControllerTwo.swift */,
 				7FEB77282028EAA8004142AC /* Assets.xcassets */,
 				7FEB772A2028EAA8004142AC /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE0CBEB20463ED000F169FB /* SecondViewContrller.swift in Sources */,
 				7FEB77242028EAA7004142AC /* ViewController.swift in Sources */,
 				7FEB77222028EAA7004142AC /* AppDelegate.swift in Sources */,
 				7FEB77502028F25B004142AC /* ViewControllerTwo.swift in Sources */,
