@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7uo-ti-lDn">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,7 +15,7 @@
             <objects>
                 <viewController id="42r-z8-UmK" customClass="ViewControllerTwo" customModule="HackwichThree" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d4Z-Ou-gQq">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oY9-u2-74m">
@@ -33,18 +33,78 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jmx-vg-fy6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="622" y="136"/>
+            <point key="canvasLocation" x="652" y="-72"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ceX-CV-EUm">
+            <objects>
+                <viewController id="r3K-7l-KiA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L1f-Lm-2dW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="roX-Ro-r0r"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jv5-dS-lOs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iAp-U1-ApH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="630" y="743"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bN3-sE-VQ4">
             <objects>
                 <viewController id="5aN-Fx-Mn1" customClass="ViewController" customModule="HackwichThree" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q7p-8r-dXe">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIM-5R-8WL">
-                                <rect key="frame" x="166" y="118" width="42" height="21"/>
+                                <rect key="frame" x="16" y="230" width="134" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Elq-aF-PR4">
+                                <rect key="frame" x="16" y="281" width="134" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AhG-cs-EsM">
+                                <rect key="frame" x="176" y="229" width="128" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Beu-j7-OGj">
+                                <rect key="frame" x="176" y="281" width="128" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7o8-Ad-kjI">
+                                <rect key="frame" x="28" y="366" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0h5-lQ-pnd">
+                                <rect key="frame" x="16" y="80" width="134" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rZx-Lr-JNZ">
+                                <rect key="frame" x="211" y="98" width="93" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBo-Gd-zxD">
+                                <rect key="frame" x="42" y="337" width="237" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -57,11 +117,17 @@
                     <navigationItem key="navigationItem" id="are-Kq-dYW"/>
                     <connections>
                         <outlet property="firstLabel" destination="VIM-5R-8WL" id="AJ6-lE-Xrt"/>
+                        <outlet property="firstLabelAnswer" destination="AhG-cs-EsM" id="sNK-oA-Zhg"/>
+                        <outlet property="secondLabel" destination="Elq-aF-PR4" id="Ewe-KJ-Cgz"/>
+                        <outlet property="secondLabelAnswer" destination="Beu-j7-OGj" id="Fdb-hJ-5jp"/>
+                        <outlet property="springClasses" destination="7o8-Ad-kjI" id="4T1-6W-3Wk"/>
+                        <outlet property="springClassesText" destination="7o8-Ad-kjI" id="Vks-7P-PMn"/>
+                        <outlet property="thirdLabel" destination="MBo-Gd-zxD" id="fa4-DW-7C2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IK9-Cr-XNq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="623" y="-528"/>
+            <point key="canvasLocation" x="650.625" y="-803.87323943661977"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ESh-VQ-uRi">
@@ -75,20 +141,21 @@
                     <connections>
                         <segue destination="iiI-ZT-La7" kind="relationship" relationship="viewControllers" id="8eo-bK-fTp"/>
                         <segue destination="xmk-Eo-LkF" kind="relationship" relationship="viewControllers" id="dC4-Et-cVP"/>
+                        <segue destination="EFM-8A-g5L" kind="relationship" relationship="viewControllers" id="WmK-cG-4E8"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aVj-VT-DYF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1079" y="-196"/>
         </scene>
-        <!--Item 1-->
+        <!--About Me-->
         <scene sceneID="beU-gS-Hh8">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iiI-ZT-La7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" image="about" id="98b-J9-O7K"/>
+                    <tabBarItem key="tabBarItem" title="About Me" image="сontacts" id="98b-J9-O7K"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YN9-fw-WkE">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -98,16 +165,16 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="riW-cQ-LoR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-128" y="-528.03598200899557"/>
+            <point key="canvasLocation" x="-86" y="-804"/>
         </scene>
-        <!--Item 2-->
+        <!--Weather-->
         <scene sceneID="rH5-pI-7ZY">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xmk-Eo-LkF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="ANM-RE-ANR"/>
+                    <tabBarItem key="tabBarItem" title="Weather" image="cloud" id="ANM-RE-ANR"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mNW-Kc-hwR">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -117,10 +184,31 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NUt-QW-WN9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-128" y="136.73163418290855"/>
+            <point key="canvasLocation" x="-130" y="-72"/>
+        </scene>
+        <!--Bucket List-->
+        <scene sceneID="wHA-ZR-Zqa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EFM-8A-g5L" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Bucket List" image="list" id="czz-QW-T05"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pbN-i6-Vzg">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="r3K-7l-KiA" kind="relationship" relationship="rootViewController" id="Og1-D2-4d4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GFM-Zx-Mo7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-130" y="744"/>
         </scene>
     </scenes>
     <resources>
-        <image name="about" width="30" height="30"/>
+        <image name="cloud" width="30" height="30"/>
+        <image name="list" width="30" height="30"/>
+        <image name="сontacts" width="30" height="30"/>
     </resources>
 </document>
