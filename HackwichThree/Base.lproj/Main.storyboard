@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5aN-Fx-Mn1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7uo-ti-lDn">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -132,8 +132,7 @@
                         <outlet property="firstLabelAnswer" destination="AhG-cs-EsM" id="sNK-oA-Zhg"/>
                         <outlet property="secondLabel" destination="Elq-aF-PR4" id="Ewe-KJ-Cgz"/>
                         <outlet property="secondLabelAnswer" destination="Beu-j7-OGj" id="Fdb-hJ-5jp"/>
-                        <outlet property="springClasses" destination="7o8-Ad-kjI" id="4T1-6W-3Wk"/>
-                        <outlet property="springClassesText" destination="7o8-Ad-kjI" id="Vks-7P-PMn"/>
+                        <outlet property="springClassInfo" destination="7o8-Ad-kjI" id="VgJ-3D-t9h"/>
                         <outlet property="thirdLabel" destination="MBo-Gd-zxD" id="fa4-DW-7C2"/>
                     </connections>
                 </viewController>
