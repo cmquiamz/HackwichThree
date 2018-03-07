@@ -1,31 +1,28 @@
 //
-//  ViewControllerTwo.swift
+//  ViewControllerThree.swift
 //  HackwichThree
 //
-//  Created by CM Student on 2/5/18.
+//  Created by CM Student on 3/6/18.
 //  Copyright © 2018 CM Student. All rights reserved.
 //
 
 import UIKit
 
-class ViewControllerTwo: UIViewController {
-    
-    @IBOutlet var navigationTitleTwo: UINavigationItem!
-    @IBOutlet var enterWeather: UITextField!
-    @IBOutlet var convertWeather: UILabel!
-    
- 
+class ViewControllerThree: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    @IBOutlet var navigationTitleThree: UINavigationItem!
+    
+    @IBOutlet var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+      
+        self.navigationTitleThree.title = "Bucket List"
         
-        self.navigationTitleTwo.title = "Weather Converter"
-        enterWeather.placeholder = "Enter degrees Farenheit"
+    
         
-        
-        
+     
     }
 
     override func didReceiveMemoryWarning() {
@@ -44,9 +41,4 @@ class ViewControllerTwo: UIViewController {
     }
     */
 
-    @IBAction func convertButtonPressed(_ sender: Any) {
-       
-        
-
-    }
 }
