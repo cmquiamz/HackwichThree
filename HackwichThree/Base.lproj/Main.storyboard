@@ -30,7 +30,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Convert"/>
                                 <connections>
-                                    <action selector="convertButtonPressed:" destination="42r-z8-UmK" eventType="touchUpInside" id="xir-zJ-lkv"/>
+                                    <action selector="convertButtonPressed:" destination="42r-z8-UmK" eventType="touchUpInside" id="5QB-IP-ksk"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yZe-YH-eEb">
