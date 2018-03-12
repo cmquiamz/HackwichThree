@@ -25,7 +25,7 @@ class ViewControllerTwo: UIViewController {
         self.navigationTitleTwo.title = "Weather Converter"
         enterWeather.placeholder = "Enter degrees Farenheit"
        self.enterWeather.text = ""
-        
+        self.convertWeather.text = ""
         
     }
 
